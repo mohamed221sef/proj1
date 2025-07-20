@@ -291,7 +291,7 @@ a {
 .work-card {
   width: 320px;
   height: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   margin-left: 20px;
   position: relative;
   float: left;
@@ -341,6 +341,9 @@ a {
 }
 .work-overlay p {
   margin: 10px 2px;
+}
+#work-header{
+  margin-bottom: 50px;
 }
 .work h2 {
   text-align: center;
