@@ -192,6 +192,7 @@ a {
 .textcontainer p {
   font-size: 27px;
   margin-bottom: 20px;
+  color: hsl(0, 0%, 90%);
 }
 .textcontainer button {
   padding: 10px 20px;
@@ -249,7 +250,7 @@ a {
     -webkit-line-clamp: 1; */
 }
 .card a {
-  color: #00ff55;
+  color: #030303;
 }
 .card i {
   color: green;
@@ -276,8 +277,11 @@ a {
 .card:hover p {
   color: rgb(255, 253, 253);
 }
+.card:hover a{
+  color: grey;
+}
 .work {
-  height: 150vh;
+  height: 120vh;
   background-color: #00ff887e;
   color: #ffffff;
   padding: 20px 0px;
@@ -291,7 +295,7 @@ a {
 .work-card {
   width: 320px;
   height: 200px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   margin-left: 20px;
   position: relative;
   float: left;
@@ -343,7 +347,9 @@ a {
   margin: 10px 2px;
 }
 #work-header{
+  margin-top: 30px ;
   margin-bottom: 50px;
+  /* color: hsl(0, 0%, 40%); */
 }
 .work h2 {
   text-align: center;
@@ -370,7 +376,7 @@ a {
 }
 
 .img1 {
-  background-image: url("../images/pankaj-patel-u2Ru4QBXA5Q-unsplash.jpg");
+  background-image: url("../images/pexels-thatguycraig000-1563356.jpg");
 }
 .img2 {
   background-image: url("../images/max-petrunin-V-FzBbVBNHM-unsplash.jpg");
@@ -477,7 +483,7 @@ a {
 .sline {
   width: 70px;
   height: 2px;
-  background-color: blue;
+  background-color: green;
 }
 .leftside-line {
   height: 25px;
@@ -489,10 +495,15 @@ a {
   display: block;
   height: 100%;
   margin-top: 10px;
+  color: green;
   /* border: 1px solid green; */
+}
+#leftside-firstp{
+  color: black;
 }
 .leftside p {
   margin: 40px 0px;
+  color: rgba(0, 0, 0, 0.705);
 }
 .leftside h2 {
   font-size: 40px;
@@ -575,9 +586,11 @@ a {
 }
 .section-card h2 {
   margin: 20px 0px;
+  font-weight: 900;
 }
 .pricingtable > h2 {
   text-align: center;
+  font-size: 3rem;
 }
 .pricingtable-card-circle {
   width: 120px;
@@ -603,6 +616,8 @@ a {
 }
 .pricingtable-card > h2 {
   margin-bottom: 20px;
+  /* font-size: 4rem; */
+  
 }
 .pricingtable-card > p {
   margin-bottom: 15px;
@@ -653,7 +668,7 @@ a {
   transition: 500ms;
   height: 0px;
   position: absolute;
-  background-color: rgba(0, 255, 85, 0.76);
+  background-color: hsla(103, 75%, 73%, 0.808);
   top: 0px;
   left: 0px;
   z-index: -1;
@@ -662,7 +677,7 @@ a {
   height: 100%;
 }
 .pricingtable-card:hover {
-  color: #ffffff;
+  color: black;
 }
 .pricingtable-card:hover .pricingtable-card-circle {
   border-color: rgb(255, 255, 255);
@@ -691,6 +706,9 @@ a {
   padding-left: 10px;
   float: left;
 }
+.sales-textcontainer p{
+  opacity: .75;
+}
 .sales-textcontainer h2 {
   font-size: 40px;
   margin-bottom: 20px;
@@ -703,6 +721,7 @@ a {
   margin-left: 140px;
   color: #ffffff;
 }
+
 .sales-cards {
   overflow: auto;
   padding-top: 80px;
@@ -742,6 +761,10 @@ a {
   position: relative;
   margin-bottom: 100px;
 }
+.ourteam-container-card h2{
+  font-size: 2.25rem;
+}
+
 .ourteam-card-image {
   margin: auto;
   width: 250px;
@@ -755,6 +778,7 @@ a {
 .ourteam-container-card h2 {
   margin: 25px 0px 20px;
 }
+
 .ourteam-card-image a {
   display: block;
   width: 40px;
@@ -768,6 +792,11 @@ a {
 }
 .ourteam-card-image i {
   color: rgb(3, 253, 149);
+}
+.ourteam-container-card p{
+  opacity: .8;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 .ourteam-container {
   width: 1200px;
@@ -911,7 +940,7 @@ a {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #00ff55;
+  background-color: #ffffff;
   line-height: 50px;
   margin: 20px 5px 30px;
   
@@ -921,10 +950,32 @@ a {
     width: 50px;
   height: 50px;
   border-radius: 50%;
+  color: black;
 }
 .card-circle:hover{
   opacity: .7;
 }
 .largem{
   margin-bottom: 100px;
+}
+.ali{
+  background: url(../images/ali.jpg) !important;
+  /* background: url(../images/ali.jpg) !important; */
+}
+.omar{
+  background: url(../images/1000_F_290888731_7PTbTGa0RyeN9OhkoppXtyeefqiyUlDS.jpg) !important;
+  background-size: cover !important;
+  
+}
+.ahmed{
+  background: url(../images/1000_F_302884605_actpipOdPOQHDTnFtp4zg4RtlWzhOASp.jpg) !important;
+  background-size: cover !important;
+  
+}
+.mohamed{
+  background: url(../images/ali.jpg) !important;
+  background-size: cover !important;
+  background-position: 0px 10px;
+  /* background-origin: 500px; */
+  
 }
